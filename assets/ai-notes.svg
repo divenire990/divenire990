@@ -92,17 +92,19 @@
   <style>
     .title-text {
       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-      font-size: 58px;
+      font-size: 56px;
       font-weight: 800;
       letter-spacing: 3.5px;
       fill: url(#text-title-grad);
+      text-anchor: middle;
     }
     .sub-text {
       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-      font-size: 17.5px;
+      font-size: 17px;
       font-weight: 450;
       letter-spacing: 1.2px;
       fill: url(#text-sub-grad);
+      text-anchor: middle;
     }
     .node-line {
       stroke-linecap: round;
@@ -338,35 +340,14 @@
 
   <!-- ==================== LEFT SIDE: TYPOGRAPHY & BRANDING ==================== -->
   
-  <!-- Subtle Accent Sparkle above MO -->
-  <g transform="translate(78, 56)">
-    <path d="M 0 -8 Q 0 0 8 0 Q 0 0 0 8 Q 0 0 -8 0 Q 0 0 0 -8 Z" fill="#38bdf8" opacity="0.85" filter="url(#glow-subtle)">
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="3.5s" repeatCount="indefinite" />
-      <animateTransform attributeName="transform" type="scale" values="0.8;1.25;0.8" dur="3.5s" repeatCount="indefinite" />
-    </path>
-  </g>
-
-  <!-- Main Title: MO -->
-  <g transform="translate(78, 122)">
-    <text x="0" y="0" class="title-text">MO</text>
+  <!-- Main Title: Mo Cai -->
+  <g transform="translate(460, 118)">
+    <text x="0" y="0" class="title-text" text-anchor="middle">Mo Cai</text>
   </g>
 
   <!-- Subtitle Line: AI Notes · curious, building, learning -->
-  <g transform="translate(80, 168)">
-    <text x="0" y="0" class="sub-text">AI Notes · curious, building, learning</text>
-  </g>
-
-  <!-- Subtle Accent Status Bar / Decorative Beam under subtitle -->
-  <g transform="translate(80, 195)">
-    <!-- Small Active Indicator Dot -->
-    <circle cx="4" cy="0" r="3" fill="#38bdf8" filter="url(#glow-subtle)">
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.4s" repeatCount="indefinite" />
-      <animate attributeName="r" values="2.5;3.6;2.5" dur="2.4s" repeatCount="indefinite" />
-    </circle>
-    <!-- Accent Line Gradient -->
-    <line x1="16" y1="0" x2="310" y2="0" stroke="url(#line-grad-1)" stroke-width="1.2" stroke-linecap="round" opacity="0.6">
-      <animate attributeName="opacity" values="0.35;0.75;0.35" dur="5s" repeatCount="indefinite" />
-    </line>
+  <g transform="translate(460, 166)">
+    <text x="0" y="0" class="sub-text" text-anchor="middle">AI Notes · curious, building, learning</text>
   </g>
 
 </svg>
