@@ -340,14 +340,14 @@
 
   <!-- ==================== LEFT SIDE: TYPOGRAPHY & BRANDING ==================== -->
   
-  <!-- Main Title: Mo Cai -->
+  <!-- Main Title: Zhihao Cai -->
   <g transform="translate(460, 118)">
-    <text x="0" y="0" class="title-text" text-anchor="middle">Mo Cai</text>
+    <text x="0" y="0" class="title-text" text-anchor="middle">Zhihao Cai</text>
   </g>
 
-  <!-- Subtitle Line: AI Notes · 好奇、折腾、学习 -->
+  <!-- Subtitle Line: 一个 AI 爱好者的实验角落 -->
   <g transform="translate(460, 166)">
-    <text x="0" y="0" class="sub-text" text-anchor="middle">AI Notes · 好奇、折腾、学习</text>
+    <text x="0" y="0" class="sub-text" text-anchor="middle">一个 AI 爱好者的实验角落</text>
   </g>
 
 </svg>
