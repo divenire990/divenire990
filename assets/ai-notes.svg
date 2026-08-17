@@ -345,9 +345,9 @@
     <text x="0" y="0" class="title-text" text-anchor="middle">Mo Cai</text>
   </g>
 
-  <!-- Subtitle Line: AI Notes · curious, building, learning -->
+  <!-- Subtitle Line: AI Notes · 好奇、折腾、学习 -->
   <g transform="translate(460, 166)">
-    <text x="0" y="0" class="sub-text" text-anchor="middle">AI Notes · curious, building, learning</text>
+    <text x="0" y="0" class="sub-text" text-anchor="middle">AI Notes · 好奇、折腾、学习</text>
   </g>
 
 </svg>
