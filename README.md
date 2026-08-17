@@ -16,9 +16,6 @@
 
 你好，我是 Mo。
 
-我对 AI、自动化和各种“能不能让它自己完成”的小想法很感兴趣。
-平时会尝试新工具、做一点小项目，也持续学习 AI 能真正帮上忙的地方。
-
 > Keep curious. Build small. Learn continuously.
 
 ---
